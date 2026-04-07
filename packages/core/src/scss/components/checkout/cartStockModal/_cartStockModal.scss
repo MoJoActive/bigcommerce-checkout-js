@@ -129,7 +129,7 @@ $cart-stock-modal-backorder-color: #6b4e9c;
     margin-bottom: spacing("eighth");
 }
 
-.cart-stock-positions-changed-modal .product-body p[data-test="cart-item-quantity"] {
+.cart-stock-positions-changed-modal p[data-test="cart-item-quantity"] {
     color: color("greys", "darker");
     font-size: fontSize("base");
     margin-bottom: spacing("eighth");
@@ -140,11 +140,9 @@ $cart-stock-modal-backorder-color: #6b4e9c;
     color: color("greys", "darker");
     flex-shrink: 0;
     font-size: fontSize("base");
-    text-align: left;
     width: 100%;
 
     @include breakpoint("small") {
-        text-align: right;
         width: auto;
     }
 }
