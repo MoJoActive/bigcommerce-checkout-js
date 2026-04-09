@@ -36,14 +36,14 @@ const CartStockPositionsChangedItem: FunctionComponent<CartStockPositionsChanged
                 {item.options.map((option, index) => (
                   <li className="product-option" data-test="cart-item-product-option" key={index}>
                     {option.name} {option.value}
-                  </li> 
+                  </li>
                 ))}
               </ul>
             )}
           </div>
           <div className="product-column">
             <p
-              className="optimizedCheckout-contentSecondary sub-text-medium"
+              className="optimizedCheckout-contentSecondary cart-item-quantity"
               data-test="cart-item-quantity"
             >
               <TranslatedString data={{ quantity: item.quantity }} id="cart.qty_label" />

@@ -2,8 +2,6 @@
 // CART STOCK POSITIONS CHANGED MODAL
 // =============================================================================
 
-$cart-stock-modal-backorder-color: #6b4e9c;
-
 .modal.cart-stock-positions-changed-modal {
     background: color("whites", "bright");
     border-radius: $global-radius * 2;
@@ -16,12 +14,13 @@ $cart-stock-modal-backorder-color: #6b4e9c;
 
     .modal-body {
         padding-bottom: spacing("single");
-        padding-top: spacing("single");
+        padding-top: 0;
     }
 
     .modal-footer {
         border-top: container("border", "light");
-        padding-top: spacing("single");
+        padding-top: 0;
+        padding-bottom: 0;
 
         .button--tertiary,
         .optimizedCheckout-buttonSecondary {
@@ -68,18 +67,13 @@ $cart-stock-modal-backorder-color: #6b4e9c;
 }
 
 .cart-stock-positions-changed-modal .productList-item {
-    border-bottom: container("border", "light");
+    border-bottom: container("border", "dark");
     margin-bottom: 0;
-    padding-bottom: spacing("single");
-    padding-top: spacing("single");
+    padding-bottom: spacing("half");
+    padding-top: spacing("half");
 
     &:first-child {
-        padding-top: 0;
-    }
-
-    &:last-child {
-        border-bottom: 0;
-        padding-bottom: 0;
+        border-top: container("border", "dark");
     }
 }
 
@@ -129,7 +123,7 @@ $cart-stock-modal-backorder-color: #6b4e9c;
     margin-bottom: spacing("eighth");
 }
 
-.cart-stock-positions-changed-modal p[data-test="cart-item-quantity"] {
+.cart-stock-positions-changed-modal .cart-item-quantity {
     color: color("greys", "darker");
     font-size: fontSize("base");
     margin-bottom: spacing("eighth");
@@ -149,11 +143,6 @@ $cart-stock-modal-backorder-color: #6b4e9c;
 
 .cart-stock-positions-changed-modal .cart-stock-position-backorder,
 .cart-stock-positions-changed-modal .cart-stock-position-backorder-message {
-    color: $cart-stock-modal-backorder-color;
     display: block;
     white-space: normal;
-}
-
-.cart-stock-positions-changed-modal .cart-stock-position-backorder-message {
-    margin-top: spacing("eighth");
 }
