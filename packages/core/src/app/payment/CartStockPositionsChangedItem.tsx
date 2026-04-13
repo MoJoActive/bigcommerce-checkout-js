@@ -41,9 +41,9 @@ const CartStockPositionsChangedItem: FunctionComponent<CartStockPositionsChanged
               </ul>
             )}
           </div>
-          <div className="product-column">
+          <div className="cart-item-quantity">
             <p
-              className="optimizedCheckout-contentSecondary cart-item-quantity"
+              className="optimizedCheckout-contentSecondary"
               data-test="cart-item-quantity"
             >
               <TranslatedString data={{ quantity: item.quantity }} id="cart.qty_label" />

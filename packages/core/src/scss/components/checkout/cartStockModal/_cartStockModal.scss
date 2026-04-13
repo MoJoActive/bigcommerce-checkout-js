@@ -127,6 +127,7 @@
     color: color("greys", "darker");
     font-size: fontSize("base");
     margin-bottom: spacing("eighth");
+    min-width: 14%;
 }
 
 // Shipping/backorder details block (right column)
@@ -138,6 +139,7 @@
 
     @include breakpoint("small") {
         width: auto;
+        min-width: 25%;
     }
 }
 
