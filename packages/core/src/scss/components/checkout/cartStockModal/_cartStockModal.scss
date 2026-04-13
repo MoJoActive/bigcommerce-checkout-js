@@ -6,10 +6,10 @@
     background: color("whites", "bright");
     border-radius: $global-radius * 2;
     box-shadow: 0 4px 20px rgba(color("greys"), 0.15);
-    padding: spacing("double");
+    padding-bottom: spacing("base");
 
     .modal-header {
-        padding-top: 0;
+        padding-top: spacing("single");;
     }
 
     .modal-body {
@@ -20,7 +20,7 @@
     .modal-footer {
         border-top: container("border", "light");
         padding-top: 0;
-        padding-bottom: 0;
+        padding-bottom: spacing("base");;
 
         .button--tertiary,
         .optimizedCheckout-buttonSecondary {
