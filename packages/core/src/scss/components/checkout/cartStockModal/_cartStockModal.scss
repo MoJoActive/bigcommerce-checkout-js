@@ -9,7 +9,7 @@
     padding-bottom: spacing("base");
 
     .modal-header {
-        padding-top: spacing("single");;
+        padding-top: spacing("single");
     }
 
     .modal-body {
@@ -20,7 +20,7 @@
     .modal-footer {
         border-top: container("border", "light");
         padding-top: 0;
-        padding-bottom: spacing("base");;
+        padding-bottom: spacing("base");
 
         .button--tertiary,
         .optimizedCheckout-buttonSecondary {
