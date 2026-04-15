@@ -6,21 +6,19 @@
     background: color("whites", "bright");
     border-radius: $global-radius * 2;
     box-shadow: 0 4px 20px rgba(color("greys"), 0.15);
-    padding-bottom: spacing("base");
+    padding: spacing("single") + spacing("quarter");
 
     .modal-header {
-        padding-top: spacing("single");
+        padding: 0 0 (spacing("single") + spacing("quarter")) 0;
     }
 
     .modal-body {
-        padding-bottom: spacing("single");
-        padding-top: 0;
+        padding: 0;
     }
 
     .modal-footer {
         border-top: container("border", "light");
-        padding-top: 0;
-        padding-bottom: spacing("base");
+        padding: (spacing("half") + spacing("third")) 0 0 0;
 
         .button--tertiary,
         .optimizedCheckout-buttonSecondary {
@@ -44,7 +42,7 @@
 }
 
 .cart-stock-positions-changed-modal .cart-stock-positions-changed-modal-group {
-    margin-bottom: spacing("double");
+    margin-bottom: spacing("single") + spacing("quarter");
 
     &:last-child {
         margin-bottom: 0;
@@ -52,10 +50,7 @@
 }
 
 .cart-stock-positions-changed-modal .cart-stock-positions-changed-modal-destination {
-    color: color("greys", "darkest");
-    font-size: fontSize("base");
-    font-weight: fontWeight("bold");
-    margin-bottom: spacing("single");
+    margin-bottom: spacing("half");
     margin-top: 0;
 }
 
