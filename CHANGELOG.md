@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.774.0](https://github.com/bigcommerce/checkout-js/compare/v1.773.1...v1.774.0) (2026-04-16)
+
+
+### Features
+
+* **shipping:** BACK-540 Improve UI of Backorder position changed modal ([3bfd67b](https://github.com/bigcommerce/checkout-js/commit/3bfd67bf4bcd32840fab07e66ac064ce82ad0664))
+* **shipping:** BACK-540 Improve UI of Backorder position changed modal - add separators ([62584ae](https://github.com/bigcommerce/checkout-js/commit/62584ae682f8d3bd22acb2b514ba1363548523ae))
+* **shipping:** BACK-540 Improve UI of Backorder position changed modal - adjust column widths ([cb5151d](https://github.com/bigcommerce/checkout-js/commit/cb5151d8c418d5525df3368d903379c0bce2496c))
+* **shipping:** BACK-540 Improve UI of Backorder position changed modal - adjust spasing and fonts based on final figam ([da4859d](https://github.com/bigcommerce/checkout-js/commit/da4859d86caf486037f2f0a7b2d2f8913d2c8f1c))
+* **shipping:** BACK-540 Improve UI of Backorder position changed modal - remove extra semi-colons ([f9f6a18](https://github.com/bigcommerce/checkout-js/commit/f9f6a18ed200781c27b904d014403db556134af4))
+* **shipping:** BACK-540 Improve UI of Backorder position changed modal - update paddings ([03580cd](https://github.com/bigcommerce/checkout-js/commit/03580cdd2dfcc148d589e0e79cad303268f83baa))
+
 ### [1.773.1](https://github.com/bigcommerce/checkout-js/compare/v1.773.0...v1.773.1) (2026-04-15)
 
 ## [1.773.0](https://github.com/bigcommerce/checkout-js/compare/v1.772.0...v1.773.0) (2026-04-14)
