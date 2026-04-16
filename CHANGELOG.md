@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.774.1](https://github.com/bigcommerce/checkout-js/compare/v1.774.0...v1.774.1) (2026-04-16)
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-9941 Fix BlueSnap Loading Issue ([#2945](https://github.com/bigcommerce/checkout-js/issues/2945)) ([9d0fe2a](https://github.com/bigcommerce/checkout-js/commit/9d0fe2ae963a55c0b6a22c903bd1694b6982d910))
+
 ## [1.774.0](https://github.com/bigcommerce/checkout-js/compare/v1.773.1...v1.774.0) (2026-04-16)
 
 
