@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.774.4](https://github.com/bigcommerce/checkout-js/compare/v1.774.3...v1.774.4) (2026-04-17)
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-9933 fix issue with custom fields not triggering shipping rate request ([#2952](https://github.com/bigcommerce/checkout-js/issues/2952)) ([7eeab7a](https://github.com/bigcommerce/checkout-js/commit/7eeab7ad9130a9e2b0861e257b0bed01b07a6fa7))
+
 ### [1.774.3](https://github.com/bigcommerce/checkout-js/compare/v1.774.2...v1.774.3) (2026-04-17)
 
 
