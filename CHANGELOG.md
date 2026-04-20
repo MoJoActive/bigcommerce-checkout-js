@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.776.0](https://github.com/bigcommerce/checkout-js/compare/v1.775.1...v1.776.0) (2026-04-20)
+
+
+### Features
+
+* **payment:** PI-5141 [Oney] Support methodIdOverride in order submission mapToOrderRequestBody.ts ([#2943](https://github.com/bigcommerce/checkout-js/issues/2943)) ([2c6a491](https://github.com/bigcommerce/checkout-js/commit/2c6a4911184fc8fabe229430ffe05a282c6b1d39))
+
 ### [1.775.1](https://github.com/bigcommerce/checkout-js/compare/v1.775.0...v1.775.1) (2026-04-20)
 
 ## [1.775.0](https://github.com/bigcommerce/checkout-js/compare/v1.774.5...v1.775.0) (2026-04-20)
