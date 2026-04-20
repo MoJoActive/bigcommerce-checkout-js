@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.775.0](https://github.com/bigcommerce/checkout-js/compare/v1.774.5...v1.775.0) (2026-04-20)
+
+
+### Features
+
+* **checkout:** CHECKOUT-9949 Make coupon code entry easier to find on mobile checkout ([664b253](https://github.com/bigcommerce/checkout-js/commit/664b2537c8a8ffbb0a07e3292a796eb65fd2ecc6))
+
 ### [1.774.5](https://github.com/bigcommerce/checkout-js/compare/v1.774.4...v1.774.5) (2026-04-17)
 
 ### [1.774.4](https://github.com/bigcommerce/checkout-js/compare/v1.774.3...v1.774.4) (2026-04-17)
