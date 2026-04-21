@@ -244,11 +244,21 @@ export function getPaymentMethodTitle(
                         ? language.translate('payment.stripe_sepa_display_name_text')
                         : methodName,
             },
-            [PaymentMethodId.WorldpayAccess]: {
-                logoUrl: '',
-                titleText: language.translate('payment.credit_debit_card_text'),
-            },
         };
+
+        if (method.gateway === PaymentMethodId.WorldpayAccess) {
+            if (method.id === PaymentMethodId.WorldpayAccessOpenBanking) {
+                return { logoUrl: '', titleText: methodDisplayName };
+            }
+
+            if (method.id === 'credit_card' || method.id === PaymentMethodId.WorldpayAccess) {
+                return { logoUrl: '', titleText: language.translate('payment.credit_debit_card_text') };
+            }
+        }
+
+        if (method.id === PaymentMethodId.WorldpayAccess) {
+            return { logoUrl: '', titleText: language.translate('payment.credit_debit_card_text') };
+        }
 
         if (method.gateway === PaymentMethodId.BlueSnapDirect) {
             if (method.id === 'credit_card') {
