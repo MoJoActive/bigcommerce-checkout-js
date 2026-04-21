@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.776.1](https://github.com/bigcommerce/checkout-js/compare/v1.776.0...v1.776.1) (2026-04-21)
+
+
+### Bug Fixes
+
+* **checkout:** CHECKOUT-9707 Gate SingleShippingForm functional component behind an experiment ([#2954](https://github.com/bigcommerce/checkout-js/issues/2954)) ([1f4ad5e](https://github.com/bigcommerce/checkout-js/commit/1f4ad5ef1df4017eead3f5c1d70933fbfbcbf421))
+
 ## [1.776.0](https://github.com/bigcommerce/checkout-js/compare/v1.775.1...v1.776.0) (2026-04-20)
 
 
