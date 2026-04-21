@@ -7,6 +7,10 @@ import getOrderSummaryItemImage from './getOrderSummaryItemImage';
 import { type OrderItemType, type OrderSummaryItemOption } from './OrderSummaryItem';
 
 function mapFromDigital(item: DigitalItem): OrderItemType {
+    const quantityBackordered = item.stockPosition?.quantityBackordered ?? item.quantityBackordered;
+    const quantityOnHand = item.stockPosition?.quantityOnHand ?? ((quantityBackordered != null ? (item.quantity - quantityBackordered) : undefined));
+    const backorderMessage = item.stockPosition?.backorderMessage || item.backorderMessage || undefined;
+
     return {
         id: item.id,
         quantity: item.quantity,
@@ -21,9 +25,9 @@ function mapFromDigital(item: DigitalItem): OrderItemType {
             })),
             getDigitalItemDescription(item),
         ],
-        quantityBackordered: item.stockPosition?.quantityBackordered,
-        quantityOnHand: item.stockPosition?.quantityOnHand,
-        backorderMessage: item.stockPosition?.backorderMessage || undefined,
+        quantityBackordered,
+        quantityOnHand,
+        backorderMessage,
     };
 }
 

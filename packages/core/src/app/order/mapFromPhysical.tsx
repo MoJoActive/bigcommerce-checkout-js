@@ -4,6 +4,10 @@ import getOrderSummaryItemImage from './getOrderSummaryItemImage';
 import { type OrderItemType } from './OrderSummaryItem';
 
 function mapFromPhysical(item: PhysicalItem): OrderItemType {
+    const quantityBackordered = item.stockPosition?.quantityBackordered ?? item.quantityBackordered;
+    const quantityOnHand = item.stockPosition?.quantityOnHand ?? ((quantityBackordered != null ? (item.quantity - quantityBackordered) : undefined));
+    const backorderMessage = item.stockPosition?.backorderMessage || item.backorderMessage || undefined;
+
     return {
         id: item.id,
         quantity: item.quantity,
@@ -16,9 +20,9 @@ function mapFromPhysical(item: PhysicalItem): OrderItemType {
             testId: 'cart-item-product-option',
             content: `${option.name} ${option.value}`,
         })),
-        quantityBackordered: item.stockPosition?.quantityBackordered,
-        quantityOnHand: item.stockPosition?.quantityOnHand,
-        backorderMessage: item.stockPosition?.backorderMessage || undefined,
+        quantityBackordered,
+        quantityOnHand,
+        backorderMessage,
     };
 }
 
