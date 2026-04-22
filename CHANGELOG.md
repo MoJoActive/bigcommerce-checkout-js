@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.777.2](https://github.com/bigcommerce/checkout-js/compare/v1.777.1...v1.777.2) (2026-04-22)
+
+
+### Code Refactoring
+
+* **checkout:** CHECKOUT-9938 Restore B2B extra fields on address select ([#2961](https://github.com/bigcommerce/checkout-js/issues/2961)) ([1f96981](https://github.com/bigcommerce/checkout-js/commit/1f9698129b6f6f6575b9f2846f5a173b899adf99))
+
 ### [1.777.1](https://github.com/bigcommerce/checkout-js/compare/v1.777.0...v1.777.1) (2026-04-22)
 
 
