@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.777.1](https://github.com/bigcommerce/checkout-js/compare/v1.777.0...v1.777.1) (2026-04-22)
+
+
+### Bug Fixes
+
+* **checkout:** wrap showDefaultShippingExpectationPrompt with feature/experiment flag ([#2960](https://github.com/bigcommerce/checkout-js/issues/2960)) ([1fda2ab](https://github.com/bigcommerce/checkout-js/commit/1fda2abc7bd1423adc9e650c80d593ec66164a07))
+
 ## [1.777.0](https://github.com/bigcommerce/checkout-js/compare/v1.776.3...v1.777.0) (2026-04-21)
 
 
