@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.781.0](https://github.com/bigcommerce/checkout-js/compare/v1.780.0...v1.781.0) (2026-04-28)
+
+
+### Features
+
+* **checkout:** CHECKOUT-9813 invoice-to-checkout flow redirection ([#2973](https://github.com/bigcommerce/checkout-js/issues/2973)) ([c0c7c8c](https://github.com/bigcommerce/checkout-js/commit/c0c7c8c964cd05d3989b3a3553d19ca626e6b99c))
+
 ## [1.780.0](https://github.com/bigcommerce/checkout-js/compare/v1.779.0...v1.780.0) (2026-04-28)
 
 
