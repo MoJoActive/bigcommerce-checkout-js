@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.779.0](https://github.com/bigcommerce/checkout-js/compare/v1.778.1...v1.779.0) (2026-04-28)
+
+
+### Features
+
+* **checkout:** CHECKOUT-9956 Fetch B2B token on customer authentication ([#2964](https://github.com/bigcommerce/checkout-js/issues/2964)) ([7e50c76](https://github.com/bigcommerce/checkout-js/commit/7e50c761e205355c54007f092a9eb0a7deed990a))
+
 ### [1.778.1](https://github.com/bigcommerce/checkout-js/compare/v1.778.0...v1.778.1) (2026-04-28)
 
 ## [1.778.0](https://github.com/bigcommerce/checkout-js/compare/v1.777.4...v1.778.0) (2026-04-28)
