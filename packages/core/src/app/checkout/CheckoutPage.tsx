@@ -160,6 +160,8 @@ const Checkout = ({
         hasSelectedShippingOptions: state.hasSelectedShippingOptions,
     });
 
+    const { orderConfirmation: { invoiceRedirect } } = useCapabilities();
+
     const navigateToStep = useCallback((type: CheckoutStepType, options?: { isDefault?: boolean }):void => {
         const step = find(stepsRef.current, { type });
 
@@ -222,6 +224,15 @@ const Checkout = ({
         SubscribeSessionStorage.removeSubscribeStatus();
 
         setState(prevState => ({ ...prevState, isRedirecting: true }));
+
+        if (invoiceRedirect && orderId !== undefined) {
+            const { links: { siteLink = '' } = {} } = data.getConfig() || {};
+
+            // TODO: CHECKOUT-9813 Get receiptId via B2B v1 API, more details in CHECKOUT-9813
+            window.location.replace(`${siteLink}/#/invoice?receiptId=`);
+
+            return;
+        }
 
         void navigateToOrderConfirmationUtility(orderId);
     }, []);
