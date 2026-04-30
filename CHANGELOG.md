@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.782.0](https://github.com/bigcommerce/checkout-js/compare/v1.781.6...v1.782.0) (2026-04-30)
+
+
+### Features
+
+* **checkout:** CHECKOUT-9826 shipping and billing step warning message when no addresses ([#2978](https://github.com/bigcommerce/checkout-js/issues/2978)) ([ef3c809](https://github.com/bigcommerce/checkout-js/commit/ef3c80947d508ea648f7302b3f2d323c2c00602b))
+
 ### [1.781.6](https://github.com/bigcommerce/checkout-js/compare/v1.781.5...v1.781.6) (2026-04-30)
 
 ### [1.781.5](https://github.com/bigcommerce/checkout-js/compare/v1.781.4...v1.781.5) (2026-04-29)
